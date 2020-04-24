@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 850px;
+    margin: 0px auto;
+}
+.header {
+    height: 400px;
+    position: relative;
+    background-color: darkblue;
+}
+
+.profile-photo {
+background-image: url(headshot.JPG);
+height: 100px;
+width: 100px;
+background-size: 100px 100px;
+position: relative;
+top: 325px;
+left: 20px;
+z-index: 2;
+   
+}
+
+
+.header-bg {
+    height: 55px;
+    background-color: darkgrey;
+    position: relative;
+    top: 0px;
+    
+}
+
+
+.profile-heading {
+    position: relative;
+    top: 0px;
+    left: 200px;
+    word-spacing: 8px;
+    
+}
+.name-heading {
+    position: relative;
+    top:200px;
+    left: 170px;
+    word-spacing: 5px;
+    /* font-size: 20px; */
+    color: white;
+
+}
+.email {
+    position: relative;
+    top: 185px;
+    left: 170px;
+    color: white;
+}
+.button-group {
+    position: relative;
+    top: 150px;
+    left: 575px;
+}
+
+.like {
+    margin-right: 10px;
+
+}
+
+#left-column {
+    width: 328px;
+    height: 300px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    color: ivory;
+    
+}
+
+
+
+#left-column ul {
+    background-color: indigo;
+    width: 100%;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+
+#right-column {
+    width: 512px;
+    height: 300px;
+    background-color: indigo;
+    float: right;
+    text-align: center;
+    font-size: 25px;
+    color: ivory;
+}
+
+ul {
+    background-color: grey;
+    width: 80%;
+    margin: auto;
+    
+
+}
+
+li {
+    list-style: none;
+}
+
+main {
+    width: 850px;
+    margin: 10px auto;
+
+}
+
+.profile-heading div{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    position: relative;
+}
